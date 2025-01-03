@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Variables de colores para temas claro y oscuro */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +15,20 @@
   }
 }
 
+/* Estilos base del cuerpo */
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* globals.css o styles.css */
+.swiper-scrollbar {
+  background-color: #e5e7eb; /* Fondo */
+}
+
+.swiper-scrollbar-drag {
+  background-color: #ef4444; /* Color de la barra */
+  border-radius: 9999px; /* Bordes redondeados */
+}
+
