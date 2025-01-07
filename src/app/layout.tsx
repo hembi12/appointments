@@ -9,6 +9,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+        <title>DentistaPro</title>
+      </head>
       <body className="antialiased bg-gray-50 text-gray-900">
         {/* Navbar */}
         <Navbar />
