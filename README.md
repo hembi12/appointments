@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Appointments
 
-## Getting Started
+Este proyecto es una aplicación web desarrollada con **Next.js**, **React**, y **TailwindCSS**, diseñada para ofrecer una experiencia fluida y responsiva. La aplicación incluye varias secciones que facilitan la navegación y mejoran la experiencia del usuario.
 
-First, run the development server:
+## Tecnologías utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework de React para aplicaciones web modernas.
+- **React**: Biblioteca para la construcción de interfaces de usuario.
+- **TailwindCSS**: Framework CSS utilitario para diseños responsivos.
+- **TypeScript**: Mejora de JavaScript con tipado estático.
+- **Swiper**: Biblioteca para carruseles y galerías responsivas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Secciones
+1. **Inicio**: Componente `Hero` para presentar la aplicación.
+2. **Servicios**: Descripción de los servicios ofrecidos.
+3. **Acerca de nosotros**: Información sobre la organización o empresa.
+4. **Testimonios**: Opiniones de los clientes.
+5. **Citas**: Sistema para gestionar citas o reservas.
+6. **Galería**: Muestra de imágenes destacadas.
+7. **Blog**: Sección para artículos y noticias.
+8. **Contacto**: Formulario y medios para comunicarse.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts disponibles
 
-## Learn More
+En el directorio del proyecto, puedes ejecutar:
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev`: Inicia el entorno de desarrollo.
+- `npm run build`: Genera una versión optimizada para producción.
+- `npm run start`: Inicia el servidor en producción.
+- `npm run lint`: Analiza el código en busca de errores y problemas de estilo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instalación y configuración
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/hembi12/appointments
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd appointments
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+## Despliegue
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+El proyecto está desplegado en **Vercel** para facilitar el acceso rápido y seguro. Puedes acceder a la aplicación desde el siguiente enlace:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Aplicación en Vercel](#)
+
+## Dependencias clave
+
+### Producción
+- **next**: 15.1.3
+- **react**: ^19.0.0
+- **react-dom**: ^19.0.0
+- **swiper**: ^11.2.0
+
+### Desarrollo
+- **eslint**: ^9
+- **tailwindcss**: ^3.4.1
+- **typescript**: ^5
+
+## Contribución
+
+Si deseas contribuir a este proyecto:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y haz un commit:
+   ```bash
+   git commit -m "Agregada nueva funcionalidad"
+   ```
+4. Envía un pull request con tus cambios.
